@@ -1,4 +1,4 @@
-# 🩺 Swift Health Dashboard — gen-ai
+# 🩺 Swift Health Dashboard
 
 Visualize your Apple Health data with a clean SwiftUI dashboard. This starter app reads steps, heart rate averages, and sleep hours using **HealthKit** and presents beautiful charts using Apple's **Charts** framework.
 
@@ -49,7 +49,3 @@ RemindersManager.shared.scheduleHourlyReminder()
 
 - This app reads HealthKit data — make sure to disclose to users how data is used and never transmit sensitive data without explicit consent.
 - Be mindful of HealthKit privacy rules and App Store requirements if you publish the app.
-
-## License
-
-MIT © 2025
