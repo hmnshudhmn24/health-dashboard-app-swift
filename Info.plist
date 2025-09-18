@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>$(DEVELOPMENT_LANGUAGE)</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>SwiftHealthDashboard</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+
+    <!-- HealthKit privacy usage strings (required when using HealthKit) -->
+    <key>NSHealthShareUsageDescription</key>
+    <string>The app reads your Health data to display dashboards and insights.</string>
+    <key>NSHealthUpdateUsageDescription</key>
+    <string>The app uses HealthKit to optionally write goals or derived metrics.</string>
+
+    <!-- Notification / microphone / camera (if used) -->
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>Bluetooth is used to connect health accessories (if applicable).</string>
+</dict>
+</plist>
